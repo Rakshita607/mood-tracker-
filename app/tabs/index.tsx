@@ -27,12 +27,6 @@ export default function HomeScreen() {
         <Text style={styles.secondaryButtonText}>View Mood History</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity
-        style={styles.secondaryButton}
-        onPress={() => router.push("/tabs/stats")}
-      >
-        <Text style={styles.secondaryButtonText}>Mood Statistics</Text>
-      </TouchableOpacity>
     </View>
   );
 }
